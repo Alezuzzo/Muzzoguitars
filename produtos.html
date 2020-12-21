@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Muzzo Guitars - Conheça nossas guitarras</title>
+        <meta name="description" content="Compre já a guitarra que você deseja, se preferir personalize a sua própria guitarra, possuimos os modelos modernas, padrão e clássicas.">
+        
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Muzzo Guitars - Conheça nossas guitarras"/>
+        <meta property="og:description" content="Compre já a guitarra que você deseja, se preferir personalize a sua própria guitarra, possuimos os modelos modernas, padrão e clássicas."/>
+        <meta property="og:url" content="http://muzzoguitars.com/produtos.html"/>
+        <meta property="og:image" content="http//muzzoguitars.com/img/og-image.png"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Exatamente o tamanho da tela do smatphone sem zoom -->
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut Icon" type="image/x-icon" href="img/logomuzzo.svg">
+
+        <link rel="stylesheet" href="css/style.css">
+        
+        <script>document.documentElement.classList.add("js");</script>
+    </head>
+    <body>
+        <!------ Header -->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-4">
+                    <img src="img/logomuzzo.svg" alt="Muzzoguitars">
+                </a>
+                <nav class="grid-12 header_menu">
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="introducao-interna interna_produtos">
+            <div>
+                <h1 class="fadeInDown" data-anime="400">Produtos</h1>
+                <p class="fadeInDown" data-anime="800">Conheça nossos produtos</p>
+            </div>
+        </section>        
+
+        <section class="container produtos_item fadeInDown" data-anime="1200">
+            <div class="grid-11">
+                <img src="img/produtos/Grupo moderno 1.jpg" alt="Guitarrras Modernas">
+                <h2>Modernas</h2>
+            </div>
+
+            <div class="grid-5">
+                <img src="img/produtos/modernguitar.jpg" alt="Guitarra moderna">
+            </div>
+
+            <div class="grid-8">
+                <img src="img/produtos/guitarmodern2.jpg" alt="Guitarra moderna2">
+            </div>
+
+            <div class="grid-8 produto_info">
+                <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
+
+                <ul>
+                    <li>Conforto</li>
+                    <li>Velocidade</li>
+                </ul>
+
+            </div>
+            
+        </section>
+
+        <section class="container produtos_item">
+            <div class="grid-11">
+                <img src="img/produtos/Grupo padrão1.jpg" alt="Guitarrras padrões">
+                <h2>Padrão</h2>
+            </div>
+
+            <div class="grid-5">
+                <img src="img/produtos/Grupo padrão 2.jpg" alt="Guitarra moderna">
+            </div>
+
+            <div class="grid-8">
+                <img src="img/produtos/standardstratocaster.jpg" alt="Guitarra moderna2">
+            </div>
+
+            <div class="grid-8 produtos_infodois">
+                <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
+
+                <ul>
+                    <li>Design</li>
+                    <li>Sonoridade</li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="container produtos_item">
+            <div class="grid-11">
+                <img src="img/produtos/Grupo clássico 1.jpg" alt="Guitarrras Clássicas">
+                <h2>Clássicas</h2>
+            </div>
+
+            <div class="grid-5">
+                <img src="img/produtos/flying v.jpg" alt="Guitarra flying v">
+            </div>
+
+            <div class="grid-8">
+                <img src="img/produtos/les.jpg" alt="Guitarra les paul">
+            </div>
+
+            <div class="grid-8 produto_infotres">
+                <p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.</p>
+
+                <ul>
+                    <li>Versatilidade</li>
+                    <li>Timbre</li>
+                </ul>
+
+            </div>
+            
+        </section>
+
+        <section class="orcamento">
+            <div class="container">
+                <h2 class="subtitulo">Orçamento</h2>
+
+                <form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
+
+                    <label for="email">Nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="text" id="telefone" name="telefone">
+                    
+                    <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                    <input type="text" class="nao-aparece" name="leaveblank">
+                    <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                    <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+                    <label for="mensagem">Específicações</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+                    <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+
+                </form>
+
+                <div class="orcamento_dados grid-8">
+                    <h3>Dados</h3>
+                    <span>+55 21 93223 6666</span>
+                    <span class="dados_email">orcamento@muzzoguitars.com</span>
+                    <h3>Monte sua guitarra</h3>
+                    <p>Escolha as especificações:</p>
+                    
+                    <ul>
+                        <li>- Cores</li>
+                        <li>- Estilo</li>
+                        <li>- Acessórios</li>
+                        <li>- Mediddas</li>
+                        <li>- E outros</li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
+    
+        <footer>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="grid-8 footer_contato">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li><img src="img/Icones/Phone.png" alt="Telefone" class="contatosfooter">21 9999-9999</li>
+                            <li><img src="img/Icones/Email.png" alt="E-mail" class="contatosfooter">contato@muzzoguitars.com</li>
+                            <li><img src="img/Icones/Location.png" alt="Localização" class="contatosfooter"> <span></span> Terrinha - MG</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-4 footer_redes">
+                        <h3>Redes sociais</h3>
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><img src="img/Icones/Repetição de grade 1.png" alt="Facebook"></a></li>
+                            <li><a href="http://Instagram.com" target="_blank"><img src="img/Icones/Instagram.png" alt="Instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div>
+
+        </footer>
+
+        <section class="copy">
+            <div class="container">
+                <p class="grid-16">Muzzo Guitars 2020 - Alguns direitos reservados.</p>
+            </div>
+        </section>
+
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/simple-form.js"></script>
+        <script src="./js/script.js"></script>
+        
+        
+    </body>
+
+</html>

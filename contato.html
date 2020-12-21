@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Muzzo Guitars - Entre em contato</title>
+        <meta name="description" content="Compre já a guitarra que você deseja, se preferir personalize a sua própria guitarra, possuimos os modelos modernas, padrão e clássicas.">
+        
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Muzzo Guitars - Entre em contato"/>
+        <meta property="og:description" content="Compre já a guitarra que você deseja, se preferir personalize a sua própria guitarra, possuimos os modelos modernas, padrão e clássicas."/>
+        <meta property="og:url" content="http://muzzoguitars.com/contato.html"/>
+        <meta property="og:image" content="http//muzzoguitars.com/img/og-image.png"/>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Exatamente o tamanho da tela do smatphone sem zoom -->
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut Icon" type="image/x-icon" href="img/logomuzzo.svg"> <!-- Muda o icone da aba do site -->
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+        <script>document.documentElement.classList.add("js");</script>
+    </head>
+    <body>
+        <!------ Header -->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="grid-4">
+                    <img src="img/logomuzzo.svg" alt="Muzzoguitars">
+                </a>
+                <nav class="grid-12 header_menu">
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="portfolio.html">Portfólio</a></li>
+                        <li><a href="contato.html" class="menu_ativo">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section class="introducao-interna interna_contato">
+            <div>
+                <h1 class="fadeInDown" data-anime="400">Contato</h1>
+                <p class="fadeInDown" data-anime="800">Tire suas dúvidas com a gente</p>
+            </div>
+        </section>        
+
+        <section class="contato container fadeInDown">
+
+            <form id="form_orcamento" method="POST" action="./enviar.php" class="contato_form grid-8 formphp">
+                <label for="email">Nome</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone">
+                
+                <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+                <input type="text" class="nao-aparece" name="leaveblank">
+                <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+                <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+                <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+            </form>
+
+            <div class="contato_dados grid-8">
+                <h3>Dados</h3>
+                <span>+55 21 93223 6666</span>
+                <span>orcamento@muzzoguitars.com</span>
+                <span>Rua Ann - São José</span>
+                <span class="dados_local">Terrinha - MG</span>
+                <h3>Redes sociais</h3>
+                <ul>
+                    <li><a href="http://facebook.com" target="_blank"><img src="img/contato/Facebook.png" alt="Facebook"></a></li>
+                    <li><a href="http://Instagram.com" target="_blank"><img src="img/contato/Instagram.png" alt="Instagram"></a></li>
+                </ul>
+
+            </div>    
+
+        </section>
+
+        <section class="container contato_mapa">
+            <a href="https://www.google.com.br/maps/place/Tarauac%C3%A1+-+AC/@-8.2597414,-71.9512519,9z/data=!3m1!4b1!4m13!1m7!3m6!1s0x917f8daa4e9106b9:0x25ec0ac5083607c1!2sAcre!3b1!8m2!3d-9.0237964!4d-70.8119953!3m4!1s0x919b22534ee0316f:0x68af212ba0a31138!8m2!3d-8.1608977!4d-70.7652128?hl=pt-PT" target="_blank" class="grid-16"><img src="img/contato/Map.jpg" alt="Mapa"></a>
+        </section>
+    
+        <footer>
+
+            <div class="footer">
+                <div class="container">
+                    <div class="grid-8 footer_contato">
+                        <h3>Contato</h3>
+                        <ul>
+                            <li><img src="img/Icones/Phone.png" alt="Telefone" class="contatosfooter">21 9999-9999</li>
+                            <li><img src="img/Icones/Email.png" alt="E-mail" class="contatosfooter">contato@muzzoguitars.com</li>
+                            <li><img src="img/Icones/Location.png" alt="Localização" class="contatosfooter"> <span></span> Terrinha - MG</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-4 footer_redes">
+                        <h3>Redes sociais</h3>
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><img src="img/Icones/Repetição de grade 1.png" alt="Facebook"></a></li>
+                            <li><a href="http://Instagram.com" target="_blank"><img src="img/Icones/Instagram.png" alt="Instagram"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            <div>
+
+        </footer>
+
+        <section class="copy">
+            <div class="container">
+                <p class="grid-16">Muzzo Guitars 2020 - Alguns direitos reservados.</p>
+            </div>
+        </section>
+
+        <script src="./js/simple-anime.js"></script>
+        <script src="./js/simple-form.js"></script>
+        <script src="./js/script.js"></script>
+        
+        
+    </body>
+
+</html>
